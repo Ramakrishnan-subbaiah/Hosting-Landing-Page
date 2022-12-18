@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+p{
+    color: #929292;
+}
+.container-1{
+    padding: 2% 5%;
+}
+.container-fluid{
+    padding: 3% 5%;
+}
+/*-------------------------Navbar-----------------*/
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-item:hover{
+    font-weight: 600;
+}
+/*---------------------Title----------------------*/
+.ttl-name{
+    font-weight: 700;
+    padding: 2% 0;
+}
+.ttl-desc{
+    padding: 2% 0;
+}
+/*----------------------Cards---------------------*/
+.card{
+    font-weight: 600;
+}
+.card:hover{
+    background-image: radial-gradient(#bcbce9,#dcdce7);
+}
+.card-img-top{
+    width: 80px;
+}
+.card-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*---------------------------Pricing---------------*/
+#pricing{
+    background-image: radial-gradient(#009FFD,#007ec7);
+}
+.pricing-head{
+    color: white;
+}
+.price{
+    font-weight: 900;
+    padding: 10px;
+}
+/*--------------------------List Group---------------*/
+.list-group{
+    padding: 18% 2%;
+}
+.list-group-item{
+    padding: 5%;
+    border: 0;
+}
+.list-group-item i{
+    color: #41e941;
+    padding-right: 5px;
+}
+/*---------------------------About us--------------*/
+#about-us{
+    padding: 10%;
+}
+#about-us .card-text{
+    color: black;
+}
+.about-head{
+    padding: 1%;
+    font-weight: 900;
+}
+.about-desc{
+    padding: 2%;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius:50% ;
+    border: 2px solid white;
+}
+.cir-name{
+    display: flex;   
+}
+.name{
+    padding: 0 5%;
+}
+/*-----------------------------Register----------------*/
+#register{
+    background-image: radial-gradient(#009FFD,#007ec7);
+    color: white;
+}
+#register p{
+    color: white;
+}
+.reg-btn{
+    padding-top: 5%;
+    text-align: center;
+}
+/*-------------------------Footer------------------*/
+.sm-link{
+    width: fit-content;
+}
+.sm-link:hover{
+    cursor: pointer;
+}
+.p-2 p:hover{
+    cursor: pointer;
+    color: black;
+}
+@media (max-width:991px) {
+    .image-mover{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .collapse{
+        text-align: center;
+    }
+}
